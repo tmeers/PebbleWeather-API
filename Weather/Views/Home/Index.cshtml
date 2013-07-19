@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+JSON GET
+<ul>
+    <li>@Html.ActionLink("Pebble:", "Pebble", "Weather") <a href="/Weather/Pebble?lat=42.25889&lon=-85.67750">Data</a>   @Html.ActionLink("Pebble:", "Pebble", "Weather").ToHtmlString()</li>
+    
+</ul>

@@ -1,0 +1,21 @@
+﻿@model Weather.Models.Pebble
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Pebble</title>
+</head>
+<body>
+    <div>
+        
+        @Html.LabelFor(model => model.Temp): @Html.DisplayFor(model => model.Temp)<br/>
+        @Html.LabelFor(model => model.Icon): @Html.DisplayFor(model => model.Icon)
+    </div>
+</body>
+</html>
