@@ -1,7 +1,8 @@
 PebbleWeather-API
 =================
 
-Simple server to return weather data to a Pebble device from forecast.io
+Simple server to return weather data to a Pebble device from forecast.io. Will be used in my fork of the robotoweather watch face.
+https://github.com/tmeers/pebble-robotoweather
 
 Initial stage:
   - App will only pull data and send down to client
